@@ -6,7 +6,7 @@ cd x86_64
 
 repo_name="archcraft-adjustment"
 
-rm ${repo_name}.*
+rm -f ${repo_name}.*
 
 repo-add -n -R ${repo_name}.db.tar.gz *.pkg.tar.zst
 
